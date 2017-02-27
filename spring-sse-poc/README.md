@@ -1,6 +1,8 @@
 # **Simple Sample for Spring Server-Sent Events (SSE)**
 1. **Deploy in WLS (or Tomcat)**
 
+This is the sample found at http://javaandspring.blogspot.cl/2015/11/server-sent-events-in-spring-42.html
+
 IMPORTANT! :
 change the following snippet code in the front-end depending on the webcontainer used:
 subscribeEvent: `var notificationBaseUrl = "http://127.0.0.1:7001/sse";`
