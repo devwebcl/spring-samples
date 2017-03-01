@@ -1,2 +1,7 @@
-spring-sse-poc/target/
+target/
+.DS_Store
+bin/
+.classpath
+.project
+.settings
 
