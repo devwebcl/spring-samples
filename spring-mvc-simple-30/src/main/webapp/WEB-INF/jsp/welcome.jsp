@@ -12,6 +12,7 @@
 			<div class="container">
 				<h1> ${greeting} </h1>
 				<p> ${tagline} </p>
+				<p> ${meves} </p>
 			</div>
 		</div>
 	</section>

@@ -3,5 +3,16 @@ target/
 bin/
 .classpath
 .project
-.settings
+.settings/
+.prefs
+*.prefs
+.metadata/
+.springBeans
+*.class
+*.war
+*.ear
+.idea/
+*.iml
+*.iws
+deploy.sh
 

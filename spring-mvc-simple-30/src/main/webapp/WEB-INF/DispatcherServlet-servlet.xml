@@ -16,4 +16,19 @@
 		<property name="suffix" value=".jsp" />
 	</bean>
 
+	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="ignoreResourceNotFound" value="true"/> <!-- otherwise it breaks -->
+ 		<property name="locations"><!-- locations, varios value's -->
+	      <list>
+	           <!-- el ultimo gana y se toma el archivo complete (no hay fusion entre ellos) -->
+		       <value>classpath:test.properties</value>
+		       <value>file:/tmp/test.properties</value> <!-- variable based on OS -->
+		     </list>
+ 		</property>
+	</bean>
+
+	<!--  bean id="valores" class="cl.ejemplo.Valor">
+		<property name="scheduled" value="${test.scheduled}" />
+	</bean -->
+
 </beans>
