@@ -15,4 +15,5 @@ bin/
 *.iml
 *.iws
 deploy.sh
+test-output/
 
