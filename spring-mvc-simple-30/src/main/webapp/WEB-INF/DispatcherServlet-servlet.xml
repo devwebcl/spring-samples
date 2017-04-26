@@ -17,7 +17,10 @@
 	</bean>
 
 	<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-		<property name="ignoreResourceNotFound" value="true"/> <!-- otherwise it breaks -->
+		<property name="ignoreResourceNotFound" value="true"/> <!-- filenotfound, otherwise it breaks -->
+		<property name="ignoreUnresolvablePlaceholders" value="false" /> <!-- ignoreUnresolvablePlaceholders set to true will ignore placeholders
+		that are not set and not throw an exception.  -->
+
  		<property name="locations"><!-- locations, varios value's -->
 	      <list>
 	           <!-- el ultimo gana y se toma el archivo complete (no hay fusion entre ellos) -->
