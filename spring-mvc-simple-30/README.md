@@ -21,9 +21,9 @@ Este es un ejemplo simple para ver varios recursos SpringMVC y Core, que a larga
 La idea es tener un resumen simple de diferentes funcionalidades de Spring.
 
 
-[http://127.0.0.1:7001/presentacion-0.0.1-SNAPSHOT/]()
-[http://127.0.0.1:7001/presentacion-0.0.1-SNAPSHOT/hola]()
-[http://127.0.0.1:7001/presentacion-0.0.1-SNAPSHOT/hello/501]()
+* [http://127.0.0.1:7001/presentacion-0.0.1-SNAPSHOT/]()
+* [http://127.0.0.1:7001/presentacion-0.0.1-SNAPSHOT/hola]()
+* [http://127.0.0.1:7001/presentacion-0.0.1-SNAPSHOT/hello/501]()
 
 
 # TODO
