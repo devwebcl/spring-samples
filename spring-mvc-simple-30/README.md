@@ -17,6 +17,7 @@ Este es un ejemplo simple para ver varios recursos SpringMVC y Core, que a larga
 - bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"
 - varios .properties adentro
 - @RestController
+- diferentes plugins de maven
 
 La idea es tener un resumen simple de diferentes funcionalidades de Spring.
 
