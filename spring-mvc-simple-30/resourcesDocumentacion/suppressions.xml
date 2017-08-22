@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE suppressions PUBLIC
+        "-//Puppy Crawl//DTD Suppressions 1.1//EN"
+        "resourcesDocumentacion\suppressions_1_1.dtd">
+
+<suppressions>
+    <!-- Sólo se auditarán las reglas en el package cl.bancochile.*.*.controller -->
+ <suppress files="cl[\\/]bancochile[\\/].*[\\/].*[\\/](?!controller)[^\\/]+[\\/]"
+              checks="[a-zA-Z0-9]*"/>
+
+</suppressions>
