@@ -17,7 +17,7 @@ public class SpringSecurityTest {
 		String password = "holamundo";
 		String stored_hash = "$2a$06$Rja8BGNHYDAQmWdDnaPZZeZDe1PzD8AUrwwyWurJ7t7qk7SDAjjyy";
 
-		// sample from http://docs.spring.io/spring-security/site/docs/current/apidocs/org/springframework/security/crypto/bcrypt/BCrypt.html
+		// sample from https://docs.spring.io/spring-security/site/docs/current/api/org/springframework/security/crypto/bcrypt/BCrypt.html
 		String hashed = BCrypt.hashpw(password, stored_hash);
 		System.out.println("hashed-pwd:" + hashed );
 
